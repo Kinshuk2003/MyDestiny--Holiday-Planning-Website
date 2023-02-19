@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Experiences @ My Destiny</title>
+        <link rel="icon" href="img/icon.jpeg" type="image/x-icon">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+		<link rel="stylesheet" type="text/css" href="feedbackcss.css">
+	</head>
+	<body>
+	<header>
+        <div class="MenuBar">
+            <ul>
+                <li ><a href="main.html"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="places.html" target="_blank"><i class="fa fa-globe"></i>Places</a></li>
+                <li class="active"><a href="feedbackform.html"><i class="fa fa-clone"></i>Feedback</a></li>
+                <li><a href="#">Adventures</a></li>
+                <li><a href="aboutus.html"><i class="fa fa-user"></i>Aboutus</a></li>
+                <li><a href="contact_us.html"><i class="fa fa-phone"></i>Contact</a></li>
+                <li class="ii"><a href="Login.html">Logout</a>
+                </li>
+            </ul>
+        </div>
+        </header>
+		<form>
+		<h1 class="new">Give Us Your Valuable Feedback</h1>
+		<p><b>Note:</b> We respect the privacy of each and every user. The images and responses taken here are only for the customer experiences so that 
+		we can improve our offerings. The images and videos uploaded by the user will only be used as pictorial representations only.</p>
+		<p class="user">Tell us something about your tour!</p>
+		<div class="usercontrol">
+            <label for="name" id="label-name"> Name</label>
+            <input type="text" id="name"  placeholder="Enter your name" />
+		</div>	
+		<div class="usercontrol">	
+			 <label for="email" id="label-email"> Email</label>
+            <input type="email" id="email" placeholder="Enter your email" />
+        </div>
+		<div class="usercontrol">
+            <label for="destination" id="label-destination">
+                Destination enjoyed by you?
+            </label>
+            <!-- Dropdown options -->
+            <select name="destination" id="destination">
+                <option value="Delhi">Delhi</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Bengaluru">Bengaluru</option>
+				<option value="Kerala">Kerala</option>
+				<option value="Goa">Goa</option>
+            </select>
+        </div>
+		<div class="usercontrol">	
+			 <label for="checkin" id="label-checkin"> Checkin</label>
+            <input type="date" id="checkin" placeholder="Enter the date of checkin" />
+        </div>
+		<div class="usercontrol">	
+			 <label for="checkout" id="label-checkout"> Checkout</label>
+            <input type="date" id="checkout" placeholder="Enter the date of checkout" />
+        </div>
+		<div class="usercontrol">	
+			 <label for="member" id="label-member"> Number of persons</label>
+            <input type="number" id="member" placeholder="Enter the total number of pesons on the tour" />
+        </div>
+		<div class="usercontrol">
+            <p class="user">Rate your experience with us</p>
+            <label for="option1">
+                <input type="radio" id="option1" name="experience">AMAZING</input>
+            </label>
+            <label for="option2">
+                <input type="radio" id="option2" name="experience">GOOD</input>
+            </label>
+            <label for="option3">
+                <input type="radio" id="option3" name="experience">AVERAGE</input>
+            </label>
+        </div>
+		 <div class="usercontrol">
+            <label>
+                Would you recommed <span class="user1">MY DESTINY</span> to a friend?
+            </label>
+            <label for="recommed-1">
+                <input type="radio" id="recommed-1" name="recommed">Definately</input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio" id="recommed-2" name="recommed">Maybe</input>
+            </label>
+            <label for="recommed-3">
+                <input type="radio" id="recommed-3" name="recommed">Never</input>
+            </label>
+        </div>
+		 <div class="usercontrol">
+            <label for="comment"> Write your amazing experience</label>
+            <textarea name="comment" id="comment" rows="10">Type it out your experience here
+            </textarea>
+        </div>
+		<div class="usercontrol">
+            <label for="inputfile" id="label-file"> Upload your images and videos</label>
+			<p class="user3"><b>Note:</b> *maximum file size 1 GB<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Only .jpeg .png and .mp4 formats are allowed</p>
+            <input type="file" id="inputfile"  placeholder="upload file" />
+		</div>
+		 <button type="submit" value="submit">Submit</button>
+		</form>
+		<section class="footer">
+            <div class="box-container">
+                <div class="box">
+                    <h3><i class="fa fa-fighter-jet"></i>Quick links</h3>
+                    <a href="main.html">Home</a>
+                    <a href="places.html" target="_blank">Places</a>
+                    <a href="feedbackform.html">Feedback</a>
+                    <a href="#">Adventures</a>
+                    <a href="aboutus.html">About us</a>
+                    <a href="contact_us.html">Contact us</a>
+                </div>
+                <div class="box">
+                    <h3><i class="fa fa-location-arrow"></i>Branch locations</h3>
+                    <a href="#">Mumbai</a>
+                    <a href="#">Bangalore</a>
+                    <a href="#">Hyderabad</a>
+                    <a href="#">New Delhi</a>
+                </div>
+                <div class="box">
+                    <h3>Follow us</h3>
+                    <a href="#">Facebook</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">Linkedin</a>
+                </div>
+            </div>
+            <h1 class="credit"> &copy; Copyrights All rights reserved! 2021 </h1>    
+        </section>
+	</body>
+</html>
